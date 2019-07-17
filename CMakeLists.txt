@@ -200,3 +200,11 @@ if(CATKIN_ENABLE_TESTING)
       ${OpenCV_LIBRARIES}
   )
 endif()
+
+install(
+  TARGETS
+    stream
+  DESTINATION
+    ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
